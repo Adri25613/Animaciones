@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<html LANG="es">
+  <head>
+    <meta charset="UTF-8">
+    <title>animacion</title>
+    <style media="screen">
+      .personaje {
+        height:600px;
+        width:150px;
+        background:url("quevedo.png");
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 13%;
+        top: -109px;
+        animation: correr 1s steps(6) infinite;
+      }
+
+      .personaje1 {
+        height:600px;
+        width:150px;
+        background:url("quevedo.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 30%;
+        top: -109px;
+        animation: correr 1s steps(6) infinite;
+        x: 350px;
+        y: 150px;
+      }
+
+      .personaje2 {
+        height:600px;
+        width:150px;
+        background:url("quevedo.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 50%;
+        top: -109px;
+        animation: correr 1s steps(6) infinite;
+        x: 350px;
+        y: 150px;
+      }
+
+      .personaje3 {
+        height:600px;
+        width:150px;
+        background:url("quevedo.png");
+        margin:0 auto;
+        /*background-position: -209px 0;*/
+        position: absolute;
+        left: 70%;
+        top: -109px;
+        animation: correr 1s steps(6) infinite;
+        x: 500px;
+        y: 150px;
+      }
+
+      .fondo{
+        x: 0px;
+        y: 0px;
+        height: 300px;
+        width: 1500px;
+        position: absolute;
+        background:url("mdlr.jpg");
+        
+      }
+
+      @keyframes correr{
+        0%{
+          background-position: 0px;
+        }
+        100%{
+          background-position: -920px;
+        }
+
+      }
+
+   
+
+    </style>
+  </head>
+  <body>
+    
+    <div class="fondo"></div>
+    <div class="personaje"></div>
+    <div class="personaje1"></div>
+    <div class="personaje2"></div>
+    <div class="personaje3"></div>
+    
+    
+  </body>
+</html>
